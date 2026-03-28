@@ -1,9 +1,9 @@
 <?php
 
-$host = "sql206.infinityfree.com";
-$banco = "if0_41494744_gerenciamento";
-$usuario = "if0_41494744";
-$senha = "rodrigo15821";
+$host = "127.0.0.1";
+$banco = "gerenciamento";
+$usuario = "root";
+$senha = "";
 
 try {
     $pdo = new PDO("mysql:host=$host;port=3306;dbname=$banco;charset=utf8", $usuario, $senha);
