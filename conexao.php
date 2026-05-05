@@ -5,6 +5,7 @@ $banco = "gerenciamento";
 $usuario = "root";
 $senha = "";
 
+
 try {
     $pdo = new PDO("mysql:host=$host;port=3306;dbname=$banco;charset=utf8", $usuario, $senha);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
