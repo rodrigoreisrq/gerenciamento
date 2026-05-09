@@ -6,6 +6,7 @@ $stmt = $pdo->query("SELECT * FROM produtos");
 $produtos = $stmt->fetchAll();
 ?>
 
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
